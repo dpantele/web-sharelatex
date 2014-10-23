@@ -58,6 +58,7 @@ module.exports =
 						emailOpts =
 							first_name:user.first_name
 							to: user.email
+							bcc: "admin@acc-latex.org"
 						EmailHandler.sendEmail "welcome", emailOpts, cb
 				], (err)->
 					logger.log user: user, "registered"
