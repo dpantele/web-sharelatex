@@ -358,7 +358,7 @@ module.exports = _.template '''
 													<tr>
 														<td colspan="2" valign="middle" id="social">
 															<div>
-																&nbsp;<a href="http://twitter.com/#!/sharelatex">Follow on Twitter</a> | <a href="http://www.facebook.com/pages/ShareLaTeX/301671376556660">Friend on Facebook</a>
+																&nbsp;This instance of Sharelatex is hosted by <a href="http://www.stevens.edu/ses/math">Stevens math department</a>
 															</div>
 														</td>
 													</tr>
